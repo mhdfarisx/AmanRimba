@@ -16,16 +16,17 @@
     <script src="layout.js"></script>
     <script src="calendar.js"></script>
     <script src="charts.js"></script>
+    <script src="body.js"></script>
 
 </head>
 
 <body>
 
+    <div class="top"></div>
     <div class="selectYear"></div>
 
     <div class="firstSelect"></div>
-    <div class="secondSelect"></div>
-
+    <div class="tooltip-list"></div>
 
     <!-- <div class="filters"></div> -->
     <!-- <div class="charts"></div> -->
@@ -33,6 +34,11 @@
 
 
     <style>
+
+        * {
+            background-color: #f9f9f9;
+        }
+
         .selectYear,
         .firstSelect {
 
@@ -60,7 +66,7 @@
 
         let comma = d3.format(',');
 
-
+                body();
 				load();
 
 

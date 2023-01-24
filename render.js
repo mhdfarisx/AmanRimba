@@ -26,25 +26,3 @@ function render() {
 }
 
 
-
-
-//function renderFilters() {
-//
-//	console.group('%crenderFilters', 'color:magenta');
-//
-//    allGroup = []
-//
-//    groupCategory.forEach((d, i) => {
-//
-//        allGroup.push(d)
-//    })
-//
-//    firstSelect()
-//
-//	console.groupEnd('renderFilters');
-//
-//}
-
-
-
-

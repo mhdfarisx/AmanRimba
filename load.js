@@ -1,7 +1,7 @@
 
 function load()	{
 
-
+	// load 2 datasets
         Promise.all([
         	d3.json('https://inventory.amanrimba.com/data/getPublicItem.json'),
         	d3.json('https://inventory.amanrimba.com/data/getPublicBooking.json')
