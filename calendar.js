@@ -175,7 +175,7 @@ function detect(dataset, date) {
                     }
 
                 }
-                else if (d.CheckOutDate == formatTime(date)) {
+                else if (d.check_out == formatTime(date)) {
                     if (data.length == 0) {
                         data.push(d)
                     }
