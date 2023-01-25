@@ -22,7 +22,7 @@ function body() {
 						.style('text-align','center')
 						.style('margin-top','6px')
 						.style('margin-bottom','6px')
-						.html('Bookings & Consumables')
+						.html('Summary of Booking and Expenses')
 
 				sel.selectChildren('.main-legend').data(d=>[d])
 					.join('div').attr('class','main-legend')
