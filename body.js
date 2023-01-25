@@ -84,8 +84,8 @@ function body() {
 
 														sel.selectChildren('rect').data(d=>[d])
 															.join('rect')
-																.attr('x',-4)
-																.attr('y',-4)
+																.attr('x',-6)
+																.attr('y',-6)
 																.attr('width',12)
 																.attr('height',12)
 																.attr('fill','#da8ee7')
