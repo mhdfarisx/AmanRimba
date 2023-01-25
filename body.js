@@ -46,13 +46,14 @@ function body() {
 
 														sel.selectChildren('circle').data(d=>[d])
 															.join('circle')
-																.attr('r',5)
+																.attr('r',6)
 																.attr('fill','#81B622')
 
 														sel.selectChildren('text').data(d=>[d])
 															.join('text')
 																.attr('x',10)
 																.attr('y',5)
+																.style('font-size', '14px')
 																.text('Guests Booking')
 
 													});
@@ -64,13 +65,14 @@ function body() {
 
 														sel.selectChildren('circle').data(d=>[d])
 															.join('circle')
-																.attr('r',5)
+																.attr('r',6)
 																.attr('fill','#9D0F40')
 
 														sel.selectChildren('text').data(d=>[d])
 															.join('text')
 																.attr('x',10)
 																.attr('y',5)
+																.style('font-size', '14px')
 																.text('Internal Booking')
 
 													});
@@ -82,16 +84,17 @@ function body() {
 
 														sel.selectChildren('rect').data(d=>[d])
 															.join('rect')
-																.attr('x',-5)
-																.attr('y',-5)
-																.attr('width',10)
-																.attr('height',10)
+																.attr('x',-4)
+																.attr('y',-4)
+																.attr('width',12)
+																.attr('height',12)
 																.attr('fill','#da8ee7')
 
 														sel.selectChildren('text').data(d=>[d])
 															.join('text')
 																.attr('x',10)
 																.attr('y',5)
+																.style('font-size', '15px')
 																.text('Purchased Items')
 
 													});
